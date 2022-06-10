@@ -1,0 +1,50 @@
+#root {
+  background: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.result {
+  height: 10vh;
+  padding-right: 0.9vw;
+  font-size: 45px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: end;
+}
+
+.btn {
+  text-align: center;
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
+  margin: 5px;
+  border: none;
+  background: #171717;
+  color: white;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn--zero {
+  text-align: center;
+  width: 11.5vw;
+  height: 10vh;
+  background: #171717;
+  color: white;
+  border-radius: 95px/80px;
+  font-size: 25px;
+}
+
+.btn--orange {
+  background: #e48800;
+}
+
+.btn--grey {
+  background: #9e9e9e;
+  color: black;
+}
